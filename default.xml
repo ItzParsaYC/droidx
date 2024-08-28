@@ -9,6 +9,9 @@
            sync-j="4"
            sync-c="true" />
 
+  <remote name="github"
+        fetch="https://github.com" />
+
   <!-- DroidX-UI Remote -->
   <remote name="droidx"
         fetch="https://github.com/DroidX-UI"
