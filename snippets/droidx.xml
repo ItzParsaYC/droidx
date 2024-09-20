@@ -12,6 +12,7 @@
   <project path="external/dtc" name="external_dtc" remote="droidx" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="droidx" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="droidx" />
+  <project path="external/boringssl" name="external_boringssl" remote="droidx" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="droidx" />
@@ -59,6 +60,7 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droidx" />
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" remote="droidx" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="droidx" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="droidx" />
   <!--<project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="droidx" />-->
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="droidx" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="droidx" />
@@ -121,9 +123,10 @@
   <project path="system/update_engine" name="system_update_engine" remote="droidx"  />
   <project path="system/libziparchive" name="system_libziparchive" remote="droidx" />
   <project path="system/extras" name="system_extras" remote="droidx" />
+  <project path="system/security" name="system_security" remote="droidx" />
   
   <!-- Vendor repos -->
-  <project path="vendor/certification" name="vendor_certification" remote="droidx-gitlab" />
+  <!--<project path="vendor/certification" name="vendor_certification" remote="droidx-gitlab" />-->
   <project path="vendor/droidx" name="vendor_droidx" remote="droidx"/>
   <project path="vendor/prebuilds" name="vendor_prebuilds" remote="droidx"/>
   <project path="vendor/droidxOTA" name="vendor_droidxOTA" remote="droidx-devices"/>
